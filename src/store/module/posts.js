@@ -7,10 +7,6 @@ const posts = {
     organizer: []
   },
 
-  getArticle: function (id) {
-    return axios.get(apiUrl + id);
-  },
-
   mutations: {
     SET_POSTS(state, data) {
       state.posts = data
